@@ -5,7 +5,7 @@ Fallout theme when launching an interactive app in iTerm2, such as `claude` or `
 
 Example launching claude code from iterm2:
 
-~[Example](./example/fallout_theme_example.gif)
+![Example](./example/fallout_theme_example.gif)
 
 ## Install
 
