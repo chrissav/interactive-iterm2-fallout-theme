@@ -1,5 +1,5 @@
 # interactive-iterm2-fallout-theme
-Fallout theme when launching an interactive app in iTerm2, such as `claude` or `k9s`.  The theme will launch a startup sequence when the command is run and a shutdown sequence when exiting that will return to your default profile.
+Fallout theme when launching an interactive app in iTerm2, such as `claude` or `k9s`.  The theme will launch a startup sequence when the command is run and a shutdown sequence when exiting that will return to your default iterm profile.
 
 ## Example
 
@@ -26,7 +26,6 @@ cp fallout_shutdown.sh /usr/local/bin/fallout_shutdown.sh
 chmod +x fallout_loading.sh fallout_shutdown.sh
 cat bash_function >> ~/.bashrc
 source ~/.bashrc
-EOF && echo "✓ Iterm app function added!"
 ```
 
 Or add the [fallout_loading.sh](./fallout_loading.sh) and [fallout_shutdown.sh](./fallout_shutdown.sh) files to your path, and the function in [bash_function](./bash_function) to your shell configuration file.
