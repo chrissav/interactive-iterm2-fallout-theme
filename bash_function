@@ -1,0 +1,12 @@
+# Update the function name and command to the app you want to launch
+function claude() {
+  # Switch to the custom iTerm2 profile (e.g., 'Fallout')
+  echo -e "\033]50;SetProfile=Fallout\a"
+
+  bash fallout_loading.sh
+  command claude # update this to the command of the app you want to launch
+
+  # When claude exits, restore the previous profile (e.g., 'Default')
+  bash fallout_shutdown.sh
+  echo -e "\033]50;SetProfile=Default\a"
+}
